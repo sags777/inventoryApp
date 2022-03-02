@@ -1,12 +1,17 @@
 import "./App.css";
-import { CssBaseline } from "@material-ui/core";
-import Main from "./pages/Main";
+import Main from "./pages/main/Main";
+import Header from "./component/header/Header";
+import Footer from "./component/footer/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <div className="App">
-      <CssBaseline />
+      <Header />
+      <ToastContainer theme="dark" />
       <Main />
+      <Footer />
     </div>
   );
 }

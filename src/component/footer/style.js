@@ -5,15 +5,18 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     left: 0,
     bottom: 0,
+    right: 0,
     width: "100%",
-    backgroundColor: "#d5cec4",
-    height: 200,
+    backgroundColor: "#121212",
+    height: 80,
+    marginTop: 20,
+    textAlign: "center",
   },
 
   image: {
     width: "100%",
     maxWidth: 250,
-    marginTop: 50,
+    marginTop: 20,
   },
 }));
 
